@@ -1,0 +1,42 @@
+ div img {
+     border-radius: 10px 10px 10px 10px;
+ }
+ 
+ div {
+     display: grid;
+     grid-template-columns: auto auto auto auto;
+     grid-gap: 10px;
+     background-color: darkgray;
+     padding: 20px;
+     border-radius: 10px 10px 10px 10px;
+ }
+ 
+ main {
+     text-align: left;
+ }
+ 
+ h1 {
+     font-size: 40px;
+     text-align: justify;
+     padding: 34px;
+ }
+ 
+ body {
+     min-height: 100vh;
+     max-width: 600px;
+     margin: 0 auto;
+ }
+ 
+ h2 {
+     font-size: 40px;
+ }
+ 
+ p {
+     font-size: 17px;
+ }
+ 
+ footer {
+     background-color: darkgray;
+     border-radius: 10px 10px 10px 10px;
+     text-align: center;
+ }
