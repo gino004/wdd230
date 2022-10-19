@@ -1,0 +1,94 @@
+        .c {
+            text-align: center;
+            font-size: 25px;
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        
+        .b {
+            text-align: center;
+            color: white;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 30px;
+        }
+        
+        .container {
+            max-width: 1500px;
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+        
+        .j section:nth-child(2) {
+            display: block;
+        }
+        
+        .a {
+            background-color: midnightblue;
+        }
+        
+        .d {
+            border-radius: 5px;
+            background-color: darkcyan;
+            width: 385px;
+            height: 629px;
+        }
+        
+        .e {
+            width: 386px;
+        }
+        
+        .f {
+            border-radius: 5px;
+            background-color: darkcyan;
+            width: 385px;
+            height: 629px;
+        }
+        
+        .g {
+            width: 386px;
+        }
+        
+        .h {
+            border-radius: 5px;
+            background-color: darkcyan;
+            width: 385px;
+            height: 629px;
+        }
+        
+        .i {
+            width: 386px;
+        }
+        
+        footer {
+            background-color: midnightblue;
+            max-width: 1500px;
+            font-size: 25px;
+            text-align: center;
+            color: white;
+            padding: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        /* Tablet Views ******************************/
+        
+        @media only screen and (min-width: 37.5em) {
+            .j {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+            .j section:nth-child(2) {
+                display: block;
+            }
+            .j section:nth-child(3) {
+                grid-column: span 2;
+            }
+        }
+        
+        @media only screen and (min-width: 60em) {
+            .j {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+            }
+            .j section:nth-child(3) {
+                grid-column: auto;
+            }
+        }
