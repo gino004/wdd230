@@ -1,0 +1,17 @@
+@media (min-width: 32.5em) {
+    /* ALL CONTENT */
+    header,
+    section,
+    footer {
+        border-radius: 4px;
+        overflow: hidden;
+    }
+    /* HEADER */
+    header {
+        padding-top: 0;
+    }
+    /* NAV */
+    nav ul {
+        flex-direction: row;
+    }
+}
