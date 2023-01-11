@@ -1,3 +1,4 @@
+/*en esta parte son para definir los dias de la semana*/
 let daynames = [
     "Sunday",
     "Monday",
@@ -7,6 +8,7 @@ let daynames = [
     "Friday",
     "Saturday"
 ];
+/*aqui es para definir los meses*/
 let monthsnames = [
     "January",
     "Febrary",
@@ -22,6 +24,7 @@ let monthsnames = [
     "December"
 ];
 
+/*lo de abajo son para definir los horarios en javascript*/
 let d = new Date();
 let Dayname = daynames[d.getDay()];
 let Monthname = monthsnames[d.getMonth()];
