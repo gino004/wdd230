@@ -1,0 +1,119 @@
+header,
+footer {
+    background-color: rgba(8, 59, 153, 0.863);
+    color: aliceblue;
+}
+
+h3 {
+    background-color: rgba(8, 59, 153, 0.863);
+    color: aliceblue;
+    text-align: center;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+header,
+nav {
+    width: 900px;
+    height: 240px;
+    text-align: center;
+}
+
+footer {
+    width: 900px;
+    height: 140px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    height: auto;
+    font-size: 18px;
+}
+
+header {
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+}
+
+.card {
+    min-width: 20px;
+    /* Establece el ancho mínimo que desees */
+    margin: 0 auto;
+    /* Centra el main en la pantalla */
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+}
+
+img,
+h1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+img {
+    padding: 40px;
+    margin-right: 10px;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+}
+
+ul li a {
+    color: rgb(17, 1, 1);
+    padding: 10px;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+nav {
+    background-color: #060607;
+    margin: 0 auto;
+    overflow: hidden;
+    height: auto;
+}
+
+section {
+    font-size: 18px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Una columna para cada sección */
+    grid-gap: 10px;
+    /* Espacio entre las secciones */
+}
+
+.card {
+    padding: 10px;
+    width: 850px;
+    border: 1px solid #d4cbcb;
+}
+
+body {
+    margin: 0;
+}
+
+h1,
+h3 {
+    font-family: Fira Sans;
+}
+
+h2,
+footer {
+    font-family: Barlow Condensed;
+}
