@@ -70,7 +70,7 @@ nav {
 }
 
 ul li a {
-    color: rgb(17, 1, 1);
+    color: rgb(44, 7, 7);
     padding: 10px;
     text-align: center;
 }
@@ -80,7 +80,7 @@ li {
 }
 
 nav {
-    background-color: #060607;
+    background-color: #060613;
     margin: 0 auto;
     overflow: hidden;
     height: auto;
@@ -116,4 +116,8 @@ h3 {
 h2,
 footer {
     font-family: Barlow Condensed;
+}
+
+ol li {
+    color: white;
 }
