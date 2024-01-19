@@ -17,13 +17,13 @@ img {
 
 header,
 nav {
-    width: 900px;
+    max-width: 900px;
     height: 240px;
     text-align: center;
 }
 
 footer {
-    width: 900px;
+    max-width: 900px;
     height: 140px;
     text-align: center;
     margin: 0 auto;
@@ -39,7 +39,7 @@ header {
 }
 
 .card {
-    min-width: 20px;
+    width: 900px;
     /* Establece el ancho mínimo que desees */
     margin: 0 auto;
     /* Centra el main en la pantalla */
@@ -49,10 +49,11 @@ header {
 h2 {
     text-align: center;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-    width: 64%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0 auto;
+    max-width: 63%;
+    width: 895px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: 0 auto 10px;
 }
 
 img,
@@ -95,18 +96,27 @@ section {
     font-size: 18px;
 }
 
-main {
+
+/* main {
     display: grid;
     grid-template-columns: 1fr;
-    /* Una columna para cada sección */
     grid-gap: 10px;
-    /* Espacio entre las secciones */
+} */
+
+main {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .card {
     padding: 10px;
-    width: 850px;
+    max-width: 63%;
     border: 1px solid #d4cbcb;
+}
+
+.card {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 body {

@@ -1,0 +1,8 @@
+@media screen and (min-width:784px) {
+    nav ol {
+        display: flex;
+    }
+    nav ol li {
+        flex: 1 1 100%
+    }
+}
