@@ -48,6 +48,11 @@ header {
 
 h2 {
     text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    width: 64%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
 }
 
 img,
