@@ -59,10 +59,6 @@ img {
     margin-right: 10px;
 }
 
-h1 {
-    margin: 0;
-}
-
 nav {
     background-color: black;
 }
@@ -97,13 +93,6 @@ div {
     font-size: 18px;
 }
 
-
-/* main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
-} */
-
 main {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -111,7 +100,7 @@ main {
 
 .card01,
 .card02 {
-    width: 100%;
+    width: 50%;
     /* Establece el ancho mínimo que desees */
     margin: 0 auto;
     /* Centra el main en la pantalla */
@@ -124,22 +113,10 @@ main {
     border: 1px solid #d4cbcb;
 }
 
-.card01 {
-    max-width: 63%;
-}
-
 .card01,
 .card02 {
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.card02 {
-    max-width: 50%;
-}
-
-body {
-    margin: 0;
 }
 
 h1,
