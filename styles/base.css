@@ -38,14 +38,6 @@ header {
     height: auto;
 }
 
-.card {
-    width: 900px;
-    /* Establece el ancho mínimo que desees */
-    margin: 0 auto;
-    /* Centra el main en la pantalla */
-    padding: 20px;
-}
-
 h2 {
     text-align: center;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
@@ -81,6 +73,15 @@ ul li a {
     text-align: center;
 }
 
+a:active {
+    outline: none;
+    text-decoration: none;
+}
+
+a:visited {
+    color: purple;
+}
+
 li {
     list-style-type: none;
 }
@@ -92,7 +93,7 @@ nav {
     height: auto;
 }
 
-section {
+div {
     font-size: 18px;
 }
 
@@ -108,15 +109,33 @@ main {
     margin-bottom: 10px;
 }
 
-.card {
+.card01,
+.card02 {
+    width: 100%;
+    /* Establece el ancho mínimo que desees */
+    margin: 0 auto;
+    /* Centra el main en la pantalla */
+    padding: 20px;
+}
+
+.card01,
+.card02 {
     padding: 10px;
-    max-width: 63%;
     border: 1px solid #d4cbcb;
 }
 
-.card {
+.card01 {
+    max-width: 63%;
+}
+
+.card01,
+.card02 {
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.card02 {
+    max-width: 50%;
 }
 
 body {

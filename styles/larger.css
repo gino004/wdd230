@@ -5,4 +5,14 @@
     nav ol li {
         flex: 1 1 100%
     }
+    main {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .card01 {
+        grid-column: 1/2;
+    }
+    .card02 {
+        grid-column: 2/3;
+    }
 }
