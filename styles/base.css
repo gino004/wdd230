@@ -4,6 +4,43 @@ footer {
     color: aliceblue;
 }
 
+#menu {
+    font-size: 2.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "✖";
+}
+
+.navigation a {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation a {
+    display: none;
+}
+
+.navigation a:hover {
+    background-color: #bbb;
+    color: #333;
+    font-weight: 700;
+}
+
+.open a {
+    display: block;
+}
+
 h3 {
     background-color: rgba(8, 59, 153, 0.863);
     color: aliceblue;
@@ -16,7 +53,7 @@ img {
 }
 
 header,
-nav {
+.navigation {
     max-width: 900px;
     height: 240px;
     text-align: center;
@@ -59,7 +96,7 @@ img {
     margin-right: 10px;
 }
 
-nav {
+.navigation {
     background-color: black;
 }
 
@@ -82,7 +119,7 @@ li {
     list-style-type: none;
 }
 
-nav {
+.navigation {
     background-color: #060613;
     margin: 0 auto;
     overflow: hidden;
@@ -133,4 +170,12 @@ ol li {
     color: white;
     font-size: 25px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#map>iframe {
+    width: 865px;
+    height: 450px;
+    border: 0;
+    margin: 0 auto;
+    border: 1px solid #d4cbcb;
 }

@@ -1,9 +1,16 @@
 @media screen and (min-width:784px) {
-    nav ol {
+    .navigation ol {
         display: flex;
     }
-    nav ol li {
+    .navigation {
+        flex-direction: row;
+    }
+    .navigation ol li {
         flex: 1 1 100%
+    }
+    .navigation a {
+        display: block;
+        flex: 1 1 100%;
     }
     /* main {
         display: grid;
@@ -16,4 +23,13 @@
     .card02 {
         grid-column: 2/3;
     } */
+    #menu {
+        display: none;
+        /* hide hamburger button */
+    }
+    #map {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
