@@ -1,0 +1,161 @@
+/* ALL CONTENT */
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    background-color: #250101;
+    color: rgb(255, 255, 255);
+}
+
+header,
+section,
+footer {
+    max-width: 1290px;
+    margin: 0 auto;
+    background-color: #393433;
+}
+
+nav,
+main {
+    max-width: 1290px;
+}
+
+
+/* HEADER */
+
+header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+header h1,
+header h2 {
+    margin: 0;
+    padding: 0.6em;
+}
+
+header h2 {
+    font-size: 1.8rem;
+}
+
+
+/* NAV */
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    background-color: #131110;
+}
+
+nav li {
+    flex: 1 1 auto;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    background-color: #3C3C3C;
+    color: #35e995;
+    font-weight: 700;
+}
+
+
+/* MAIN */
+
+main {
+    margin: 50px auto;
+}
+
+main section {
+    margin: 20px auto;
+}
+
+main h3,
+h4,
+p {
+    padding: 0.9rem 1.4rem;
+}
+
+main h3 {
+    font-size: 1.6rem;
+}
+
+main h4,
+p,
+ul {
+    font-size: 1.2rem;
+}
+
+main ul {
+    padding-bottom: 1.4rem;
+}
+
+main img {
+    max-width: 100%;
+    display: block;
+    padding: 1.4rem;
+}
+
+
+/* color-scheme.html */
+
+.color1 {
+    color: #fff;
+    background-color: #256D85;
+}
+
+.color2 {
+    background-color: #06283D;
+    color: #fff;
+}
+
+.color3 {
+    background-color: #47B5FF;
+    color: #000;
+}
+
+.color4 {
+    background-color: #DFF6FF;
+    color: #000;
+    margin-bottom: 19px;
+}
+
+
+/* typography.html */
+
+.font1 {
+    font-family: "Overpass", Helvetica, sans-serif;
+    font-size: 2rem;
+    margin-bottom: -20px;
+}
+
+
+/* FOOTER */
+
+footer p {
+    text-align: center;
+    font-size: 1.18rem;
+    padding: 20px;
+}
+
+footer p:nth-child(2) {
+    color: #FFFA4F;
+    padding-top: 0;
+}
+
+img {
+    border-radius: 30px;
+}
