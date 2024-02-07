@@ -1,3 +1,50 @@
 * {
     box-sizing: border-box;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+h3,
+p {
+    color: white;
+}
+
+header,
+footer {
+    background-color: #005EA2;
+    /* border: 1px solid rgb(202, 192, 192); */
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+section img {
+    width: 420px;
+    max-width: 100%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
