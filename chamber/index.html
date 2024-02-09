@@ -19,11 +19,14 @@
 
 <body>
     <header>
-        <img src="images/Wardiere.png" alt="Logo" style="border-radius: 50px; padding: 20px; height:150px;">
-        <h3>Chamber of Commerce of Lima</h3>
-        <img href="#" src="images/Logo_de_Facebook.png" target="_blank" rel="noopener noreferrer" style="height: 40px; border-radius:10px">
-        <img href="#" src="images/linkedIn.png" target="_blank" rel="noopener noreferrer" style="height: 40px; border-radius:10px">
-        <nav class="navbar">
+        <div class="logo">
+            <img src="images/Wardiere.png" alt="Logo" style="border-radius: 50px; padding: 20px; height:150px;">
+            <h3>Chamber of Commerce of Lima</h3>
+            <img src="images/Logo_de_Facebook.png" alt="Facebook" style="height: 40px; border-radius:10px ">
+            <img src="images/linkedIn.png " alt="Linkendin" style="height: 40px; border-radius:10px ">
+        </div>
+        <button id="hamburger_menu"></button>
+        <nav class="navbar ">
             <ul>
                 <li>
                     <a>Home</a>
@@ -41,23 +44,32 @@
         </nav>
     </header>
     <main>
-        <section> <img src="https://via.placeholder.com/400x300" alt="Image"></section>
-        <section> <img src="https://via.placeholder.com/400x300" alt="Image"></section>
-        <section> <img src="https://via.placeholder.com/400x300" alt="Image"></section>
+        <section>
+            <h4>Image one</h4>
+            <img src="https://via.placeholder.com/400x300 " alt="Image">
+        </section>
+        <section>
+            <h4>Image two</h4>
+            <img src="https://via.placeholder.com/400x300 " alt="Image">
+        </section>
+        <section>
+            <h4>Image three</h4>
+            <img src="https://via.placeholder.com/400x300 " alt="Image">
+        </section>
     </main>
     <footer>
-        <img src="images/Wardiere.png" alt="Logo" style="border-radius: 50px; padding: 20px">
+        <img src="images/Wardiere.png " alt="Logo " style="border-radius: 50px; padding: 20px ">
         <h3>Chamber of Commerce of Lima</h3>
         <p>
             Gino Estrella | WDD230 Proyect
         </p>
         <p>
             Last updated:
-            <span id="last-updated"></span>
+            <span id="lastupdated"></span>
         </p>
     </footer>
-    <script src=" scripts/index.js" defer></script>
-</body>
+    <script src=" scripts/index.js " defer></script>
+    <script src=" scripts/nav.js " defer></script>
 </body>
 
 </html>

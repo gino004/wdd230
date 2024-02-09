@@ -1,22 +1,77 @@
 * {
     box-sizing: border-box;
-}
-
-ul {
-    list-style-type: none;
     margin: 0;
-    padding: 0;
 }
 
-li a {
+body {
+    min-width: 417px;
+}
+
+#hamburger_menu {
+    font-size: 2.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+a {
     color: white;
+}
+
+.navbar a {
+    font-weight: 900;
+}
+
+.navbar li {
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 15px;
+}
+
+#hamburger_menu::before {
+    content: "☰";
+}
+
+#hamburger_menu.open::before {
+    content: "✖";
+}
+
+.navbar a {
+    display: none;
+}
+
+.navbar a:hover {
+    background-color: #bbb;
+    color: #333;
+    font-weight: 700;
+}
+
+.open a {
+    display: block;
 }
 
 header {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 30px;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 10px;
 }
 
 h3,
@@ -47,4 +102,22 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 30px;
+}
+
+
+/* small view */
+
+@media screen and (max-width:872px) {
+    header,
+    .logo,
+    .navbar,
+    main,
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    #hamburger_menu {
+        display: none;
+        /* hide hamburger button */
+    }
 }
