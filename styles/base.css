@@ -1,5 +1,11 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+}
+
 header,
 footer {
+    /*Aqui le da color de fondo y a las letras.*/
     background-color: rgba(8, 59, 153, 0.863);
     color: aliceblue;
 }
@@ -8,7 +14,7 @@ footer {
     font-size: 2.5rem;
     border: 0;
     background: none;
-    color: #000;
+    color: black;
     position: absolute;
     top: 1rem;
     right: 1rem;
@@ -32,8 +38,8 @@ footer {
 }
 
 .navigation a:hover {
-    background-color: #bbb;
-    color: #333;
+    background-color: black;
+    color: #e9ec12;
     font-weight: 700;
 }
 
@@ -54,35 +60,31 @@ img {
 
 header,
 .navigation {
+    /*Aquí le da el ancho maximo al header y a todo el nav.*/
     max-width: 900px;
-    height: 240px;
+    /* height: 240px; */
     text-align: center;
 }
 
 footer {
     max-width: 900px;
-    height: 140px;
     text-align: center;
     margin: 0 auto;
-    overflow: hidden;
-    height: auto;
-    font-size: 18px;
+    font-size: 20px;
+    color: yellow;
 }
 
 header {
     text-align: center;
     margin: 0 auto;
-    height: auto;
+    /* height: auto; */
 }
 
 h2 {
     text-align: center;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
-    max-width: 60%;
-    width: 895px;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    margin: 0 auto 10px;
+    max-width: 90%;
+    margin: 0 auto;
 }
 
 img,
@@ -92,6 +94,7 @@ h1 {
 }
 
 img {
+    border-radius: 60px;
     padding: 40px;
     margin-right: 10px;
 }
@@ -102,8 +105,6 @@ img {
 
 ul li a {
     color: rgb(44, 7, 7);
-    padding: 10px;
-    text-align: center;
 }
 
 a:active {
@@ -112,7 +113,21 @@ a:active {
 }
 
 a:visited {
-    color: purple;
+    color: #fff;
+}
+
+ul li a:visited {
+    color: black;
+}
+
+ul li a:hover {
+    color: rgb(218, 9, 96);
+}
+
+u,
+li,
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 a {
@@ -126,30 +141,32 @@ li {
 .navigation {
     background-color: #060613;
     margin: 0 auto;
-    overflow: hidden;
-    height: auto;
+    /* overflow: hidden; */
+    /* height: auto; */
 }
 
 div {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 main {
-    /* esto hace que cree un espacio abajo con el footer */
-    margin-bottom: 10px;
-}
-
-.card01,
-.card02 {
-    /* Establece el ancho mínimo que desees */
-    width: 62%;
-    /* Centra el main en la pantalla */
+    /*esto hace el ancho maximo del main.*/
+    max-width: 900px;
+    /*esto centra el main.*/
     margin: 0 auto;
 }
 
 .card01,
 .card02 {
-    padding: 10px;
+    /* Establece el ancho mínimo que desees */
+    width: 92%;
+    /* Centra los div's en la pantalla */
+    margin: 0 auto;
+}
+
+.card01,
+.card02 {
+    padding: 5px;
     border: 1px solid #d4cbcb;
 }
 
@@ -167,6 +184,7 @@ h3 {
 h2,
 footer {
     font-family: Barlow Condensed;
+    margin-top: 10px;
 }
 
 ol li {
@@ -175,9 +193,13 @@ ol li {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#map {
+    max-width: 900px;
+}
+
 #map iframe {
-    width: 865px;
-    height: 450px;
+    width: 93.2%;
+    height: 300px;
     border: 0;
     margin: 0 auto;
     border: 1px solid #d4cbcb;
