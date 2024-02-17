@@ -115,6 +115,10 @@ a:visited {
     color: purple;
 }
 
+a {
+    text-decoration: none;
+}
+
 li {
     list-style-type: none;
 }
@@ -131,17 +135,16 @@ div {
 }
 
 main {
-    margin-top: 10px;
+    /* esto hace que cree un espacio abajo con el footer */
     margin-bottom: 10px;
 }
 
 .card01,
 .card02 {
-    width: 50%;
     /* Establece el ancho mínimo que desees */
-    margin: 0 auto;
+    width: 62%;
     /* Centra el main en la pantalla */
-    padding: 20px;
+    margin: 0 auto;
 }
 
 .card01,
