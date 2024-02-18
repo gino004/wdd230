@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 * {
     margin: 0;
     /* padding: 0; */
@@ -53,7 +54,41 @@ h3 {
     text-align: center;
 }
 
-img {
+.hero picture img {
+    position: relative;
+}
+
+.hero picture img {
+    max-width: 840px;
+    height: 300px;
+}
+
+.hero_label {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    border: 1px solid rgba(0, 0, 0, .75);
+    padding: 1.5rem;
+    box-shadow: 0 0 3rem #fff;
+    opacity: 0.75;
+}
+
+.hero_label p {
+    margin: 0;
+    padding: .25rem;
+    font-family: "Great Vibes", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+header img {
     width: 150px;
     height: 150px;
 }
@@ -93,7 +128,7 @@ h1 {
     vertical-align: middle;
 }
 
-img {
+header img {
     border-radius: 60px;
     padding: 40px;
     margin-right: 10px;
