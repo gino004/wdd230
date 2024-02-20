@@ -48,8 +48,14 @@ a {
 
 .navbar a:hover {
     background-color: #005EA2;
-    color: #d80b9a;
+    color: #ffffff;
     font-weight: 700;
+}
+
+.navbar li:hover {
+    box-shadow: 0 12px 16px 0 #1b3446;
+    cursor: pointer;
+    transition-duration: 0.4s;
 }
 
 .open a {
@@ -107,10 +113,11 @@ footer {
     gap: 30px;
 }
 
-.links {
+
+/* .links {
     float: left;
     margin-right: 300px;
-}
+} */
 
 
 /* small view */
