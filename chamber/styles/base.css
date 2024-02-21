@@ -146,12 +146,12 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    #hamburger_menu {
-        position: absolute;
-        top: 60px;
-    }
     /* hide hamburger button */
     /* #hamburger_menu {
         display: none;
     } */
+    #hamburger_menu {
+        position: absolute;
+        top: 60px;
+    }
 }
