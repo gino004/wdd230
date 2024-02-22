@@ -89,7 +89,7 @@ footer {
 main {
     display: flex;
     justify-content: center;
-    text-align: center;
+    /* text-align: center; */
     gap: 60px;
 }
 
@@ -104,6 +104,12 @@ img {
 .card02,
 .card03 {
     flex-direction: row;
+    /* border: 1px solid #000; */
+    box-shadow: 1px 1px 29px 5px #000;
+}
+
+.card03 {
+    padding: 30px;
 }
 
 footer {
@@ -126,6 +132,20 @@ footer {
     background-color: #000;
     color: #fff;
     border-color: #eee;
+}
+
+.weather h3 {
+    color: #000;
+    border-bottom: 1px solid #6d4e4e;
+}
+
+.weather p {
+    color: #000;
+}
+
+.prf,
+#lastupdated {
+    color: yellow;
 }
 
 
