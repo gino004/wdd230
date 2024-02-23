@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
 </head>
 
 <body>
@@ -24,10 +23,6 @@
             <img src="images/Wardiere.png" alt="Logo" style="border-radius: 50px; padding: 20px; height:150px;">
             <h3>The Lima Chamber of Commerce</h3>
         </div>
-        <!-- <div class="links">
-            <img src="images/Logo_de_Facebook.png" alt="Facebook" style="height: 40px; border-radius:10px ">
-            <img src="images/linkedIn.png " alt="Linkendin" style="height: 40px; border-radius:10px ">
-        </div> -->
         <button id="hamburger_menu"></button>
         <nav class="navbar">
             <ul>
@@ -49,17 +44,22 @@
             ☀️/🌑
         </div>
     </header>
+    <div class="hero">
+        <picture>
+            <source media="(max-width: 715px)" srcset="images/small.webp">
+            <source media="(max-width: 959px)" srcset="images/medium.webp">
+            <img src="images/large.webp" alt="hero" width="1080" height="720">
+        </picture>
+    </div>
     <main>
-        <div class="card01">
-            <img src="https://via.placeholder.com/400x300 " alt="image">
+        <!-- <div class="card01">
         </div>
         <div class="card02">
-            <img src="https://via.placeholder.com/400x300 " alt="image">
-        </div>
+        </div> -->
         <div class="card03">
             <div class="weather">
                 <h3>Weather</h3>
-                <p>Temperature 🌧️: <span id="temperature">50</span> °F</p>
+                <p>🌧️: <span id="temperature">50</span>°F Heavy rains</p>
                 <p>Wind Speed: <span id="windspeed">20</span> mph</p>
                 <p>Wind Chill: <span id="windchill">-</span></p>
             </div>
