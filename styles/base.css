@@ -55,10 +55,11 @@ h3 {
     text-align: center;
 }
 
-.hero {
+
+/* .hero {
     width: 100%;
     max-width: 900px;
-}
+} */
 
 .hero picture img {
     position: relative;
