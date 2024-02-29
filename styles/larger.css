@@ -27,9 +27,9 @@
         display: none;
         /* hide hamburger button */
     }
-    #map {
+    /* #map {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
+    } */
 }
