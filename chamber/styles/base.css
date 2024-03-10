@@ -22,6 +22,10 @@
     list-style-type: none;
 }
 
+li a {
+    text-decoration: none;
+}
+
 a {
     color: white;
 }
@@ -166,13 +170,7 @@ footer {
 }
 
 
-/* .links {
-    float: left;
-    margin-right: 300px;
-} */
-
-
-/* small view */
+/*------Small View------*/
 
 @media screen and (max-width:872px) {
     header,

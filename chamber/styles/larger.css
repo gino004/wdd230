@@ -16,3 +16,114 @@
         display: none;
     }
 }
+
+
+/*-------MAIN DISCOVER PAGE-------*/
+
+.demo {
+    background-color: #2f7258;
+    text-align: center;
+    color: #ffffff
+}
+
+.sidebar {
+    height: 100%;
+    width: 900px;
+    background-color: #F6362D;
+    border-radius: 5px;
+}
+
+.paragraph {
+    margin: 20px;
+}
+
+.gallery {
+    height: 100%;
+    text-align: center;
+    background-color: #F6362D;
+    border-radius: 5px;
+}
+
+.gallery img {
+    max-width: 200px;
+    max-height: 190px;
+}
+
+.sidebar p {
+    text-align: center;
+    color: #ffffff;
+}
+
+.paragraph {
+    box-shadow: 1px 1px 10px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    padding: 10px;
+}
+
+figure img {
+    height: auto;
+    margin: 20px;
+    box-shadow: 1px 1px 10px;
+}
+
+figcaption {
+    color: #ffffff;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    max-height: 10px;
+    margin-bottom: 15px;
+    background-color: white;
+}
+
+th,
+td {
+    border: 2px solid black;
+    text-align: center;
+}
+
+th {
+    background-color: #d3caca;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td {
+    height: 50px;
+}
+
+caption {
+    color: white;
+    font-weight: bold;
+}
+
+@media screen and (max-width:100%) {
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+/*Mobile View*/
+
+@media screen and (max-width:981px) {
+    .container {
+        grid-template-columns: 1fr;
+    }
+    .sidebar {
+        display: none;
+    }
+}
