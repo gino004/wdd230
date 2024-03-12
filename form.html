@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test document</title>
+    <link href="styles/form.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h2>Enter your details</h2>
+    </header>
+    <nav>
+        <ul>
+            <a>Home</a>
+        </ul>
+        <ul>
+            <a>Photos</a>
+        </ul>
+        <ul>
+            <a>About</a>
+        </ul>
+        <ul>
+            <a>Contact us</a>
+        </ul>
+    </nav>
+    <main>
+        <form method="get" action="record.html" class="wf1">
+            <fieldset>
+                <legend>Username</legend>
+                <label>Your Username* <input type="text" id="username" name="username" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Password</legend>
+                <label>Password* <input type="password" id="password" name="password"  pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required title="The password must have numbers and letters, a minimum of 8 characters."></label>
+            </fieldset>
+            <fieldset>
+                <legend>Password repeated for confirmation</legend>
+                <label>Repeat Password* <input type="password" id="password2" name="password2" required><div id="formmessage"></div></label>
+            </fieldset>
+            <fieldset>
+                <legend>Email</legend>
+                <label id="label">Email* 
+                    <input type="email" id="email" name="email"  placeholder="Your byui email address" title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required>
+                    <input id="submit" type="submit" value="Validate">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Page Rating - Choose your range</legend>
+                <div id="rangevalue">0</div>
+                <label for="r ">
+                  <input type="range" id="r" name="r"  min="0" max="10" value="0" step="1" list="rangevalues">
+                  <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </datalist>
+                </label>
+            </fieldset>
+            <input id="enviar" type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        &copy; 2024 &bull; Gino Estrella &bull;
+    </footer>
+    <script src="scripts/form.js"></script>
+    <script src="scripts/email.js"></script>
+    <script src="scripts/range.js"></script>
+</body>
+
+</html>
+
+</html>
