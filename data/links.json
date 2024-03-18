@@ -1,0 +1,102 @@
+{
+    "lessons": [
+
+        {
+            "lesson": "01",
+            "links": [
+
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles."
+                }, {
+                    "url": "images/exercises.png",
+                    "title": "Combinator Exercises."
+                }
+            ]
+        }, {
+            "lesson": "02",
+            "links": [
+
+                {
+                    "url": "https://codepen.io/Garriet/full/xxBPGyR",
+                    "title": "CSS Psuedo Elements."
+                }, {
+                    "url": "https://codepen.io/Garriet/full/KKEyoRz",
+                    "title": "Responsive Menu Hamburger."
+                }
+            ]
+        }, {
+            "lesson": "03",
+            "links": [
+
+                {
+                    "url": "https://codepen.io/Garriet/full/NWJMOPq",
+                    "title": "Pseudo-class."
+                }, {
+                    "url": "lesson05/bom.html",
+                    "title": "My Favorite Book."
+                }
+            ]
+        }, {
+            "lesson": "04",
+            "links": [
+
+                {
+                    "url": "images/landscape.webp",
+                    "title": "WebP."
+                }, {
+                    "url": "lesson06/responsive-images.html",
+                    "title": "Responsive Images: srcset."
+                }
+            ]
+        }, {
+            "lesson": "05",
+            "links": [
+
+                {
+                    "url": "lesson07/lazyload.html",
+                    "title": "Native Lazy Loading."
+                }, {
+                    "url": "lesson08/bom.html",
+                    "title": "JS localStorage."
+                }
+            ]
+        }, {
+            "lesson": "06",
+            "links": [
+
+                {
+                    "url": "lesson09/tablebuild.html",
+                    "title": "Example of Tables."
+                }, {
+                    "url": "Form-start/index.html",
+                    "title": "Form Design."
+                }
+
+            ]
+        }, {
+            "lesson": "07",
+            "links": [
+
+                {
+
+                    "url": "form.html",
+                    "title": " HTML form."
+                }, {
+                    "url": "lesson10/new-ward-members.json",
+                    "title": "JSON file."
+                }
+            ]
+        }, {
+            "lesson": "08",
+            "links": [
+
+                {
+
+                    "url": "lesson10/prophets.html",
+                    "title": "The Fetch API"
+                }
+            ]
+        }
+    ]
+}
