@@ -127,3 +127,77 @@ caption {
         display: none;
     }
 }
+
+
+/* MAIN DIRECTORY PAGE */
+
+.negocios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.negocios {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.negocios section,
+p {
+    margin: auto;
+    text-align: center;
+}
+
+.negocios img {
+    box-shadow: 1px 1px 10px;
+}
+
+.negocios h3,
+p {
+    text-align: center;
+}
+
+.negocios a {
+    color: rgb(13, 38, 177);
+    text-decoration: none;
+}
+
+.menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu button {
+    height: 30px;
+    width: 100px;
+}
+
+
+/* .negocios .empresa:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+
+.zebra .empresa:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+    .negocios {
+        grid-template-columns: 1fr;
+    }
+    .menu {
+        display: flex;
+        /* Mostrar los botones en vista móvil */
+        justify-content: center;
+        /* Centrar los botones horizontalmente */
+        margin-bottom: 1rem;
+        /* Espaciado inferior */
+    }
+    .negocios .empresa:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+}
