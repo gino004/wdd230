@@ -238,6 +238,11 @@ main {
 figure {
     text-align: center;
     margin: 57px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.card02 img {
+    width: 80px;
 }
 
 h1,
