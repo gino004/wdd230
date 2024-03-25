@@ -95,6 +95,9 @@
 
                     "url": "lesson10/prophets.html",
                     "title": "The Fetch API"
+                }, {
+                    "url": "lesson10/weather.html",
+                    "title": "APi Weather"
                 }
             ]
         }
