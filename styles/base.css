@@ -234,7 +234,8 @@ main {
     margin-bottom: 10px;
 }
 
-.card02 p {
+.card02 p,
+figure {
     text-align: center;
     margin: 57px;
 }
