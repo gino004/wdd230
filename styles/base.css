@@ -25,6 +25,8 @@ header div {
 header div img {
     border-radius: 10px;
     box-shadow: 10px 10px 10px;
+    width: 133px;
+    height: 133px;
 }
 
 header span {
