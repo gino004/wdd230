@@ -109,6 +109,14 @@ main .card p {
     /* Espacio entre cada párrafo */
 }
 
+.card a {
+    color: black;
+}
+
+.card a:hover {
+    color: purple;
+}
+
 main h2 {
     background-color: rgb(93, 93, 153);
     text-align: center;
