@@ -135,6 +135,44 @@ main li a {
     text-decoration: none;
 }
 
+
+/* Hamburger Menu */
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #fdfdfd;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    display: none;
+    font-weight: 900;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "✖";
+}
+
+.open a {
+    display: block;
+}
+
+
+/* Dark Mode */
+
+#mode {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    font-size: 3rem;
+    cursor: pointer;
+}
+
 footer {
     display: flex;
     flex-direction: column;

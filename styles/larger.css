@@ -22,4 +22,27 @@
     footer {
         text-align: center;
     }
+    #menu {
+        display: block;
+    }
+    nav a {
+        display: none;
+        /* Ocultar los enlaces del menú por defecto */
+    }
+    nav.open a {
+        display: block;
+        /* Mostrar los enlaces cuando el menú está abierto */
+    }
+    nav ul {
+        margin: 0;
+        padding: 0;
+        /* Elimina si hay espacios en el nav*/
+    }
+    #mode {
+        position: absolute;
+        top: 2rem;
+        right: -0.3rem;
+        cursor: pointer;
+        font-size: 2rem;
+    }
 }
