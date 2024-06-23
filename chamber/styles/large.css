@@ -1,0 +1,35 @@
+@media screen and (max-width:894px) {
+    header,
+    .navbar ul,
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar ul {
+        padding: 25px 0px 25px 0px;
+    }
+    .hero,
+    .current,
+    .weather {
+        padding: 50px 0px 50px 5px;
+    }
+    .spotlight div {
+        padding: 50px 0px 50px 5px;
+    }
+    #menu {
+        display: block;
+    }
+    .navbar a {
+        display: none;
+        /* Ocultar los enlaces del menú por defecto */
+    }
+    .navbar.open a {
+        display: block;
+        /* Mostrar los enlaces cuando el menú está abierto */
+    }
+    .navbar ul {
+        margin: 0;
+        padding: 0;
+        /* Elimina si hay espacios en el nav*/
+    }
+}
