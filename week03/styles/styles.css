@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(39, 28, 28);
+}
+
+div img {
+    display: block;
+    margin: auto;
+    margin-top: 43px;
+}
