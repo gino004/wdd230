@@ -19,6 +19,9 @@
     main .card {
         margin: 5px 5px;
     }
+    .frame iframe {
+        margin: 5px 5px;
+    }
     footer {
         text-align: center;
     }
