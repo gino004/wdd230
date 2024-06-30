@@ -31,7 +31,7 @@
     <nav class="navbar">
         <ul>
             <li>
-                <a href="">Discover</a>
+                <a href="discover.html">Discover</a>
             </li>
             <li>
                 <a href="">Directory</a>
@@ -41,23 +41,13 @@
             </li>
         </ul>
     </nav>
-    <main class="container">
-        <div class="hero">
-            <div class="Join">Join Us(call to action)</div>
-            Hero Image
-        </div>
-        <div class="current">
-            Current Event
-        </div>
-        <div class="weather">
-            Weather
-        </div>
-        <div class="spotlight">
-            <div>spotlight</div>
-            <div>spotlight</div>
-            <div>spotlight</div>
-        </div>
-    </main>
+    <div class="hero">
+        <picture>
+            <source media="(min-width: 715px)" srcset="images/small.webp">
+            <source media="(min-width: 959px)" srcset="images/medium.webp">
+            <img src="images/large.webp" alt="hero" width="1350" height="600" loading="lazy">
+        </picture>
+    </div>
     <footer class="down">
         <img class="Foto" src="images/Wardiere.webp" alt="Logo" style="padding: 30px; height: 180px;">
         <h2 class="titulo">The Lima Chamber of Commerce</h2>

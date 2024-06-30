@@ -1,20 +1,11 @@
 @media screen and (max-width:894px) {
     header,
-    .navbar ul,
-    .container {
+    .navbar ul {
         display: flex;
         flex-direction: column;
     }
     .navbar ul {
         padding: 25px 0px 25px 0px;
-    }
-    .hero,
-    .current,
-    .weather {
-        padding: 50px 0px 50px 5px;
-    }
-    .spotlight div {
-        padding: 50px 0px 50px 5px;
     }
     #menu {
         display: block;
@@ -31,5 +22,19 @@
         margin: 0;
         padding: 0;
         /* Elimina si hay espacios en el nav*/
+    }
+    .contenedor {
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        padding: 15px;
+        gap: 30px;
+        border: 2px solid gray;
+        margin-top: 7px;
     }
 }
