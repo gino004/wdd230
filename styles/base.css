@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&display=swap');
 * {
     box-sizing: border-box;
     padding: 0;
@@ -109,8 +110,10 @@ main .card p {
     /* Espacio entre cada párrafo */
 }
 
-.card a {
-    color: black;
+.card a:active,
+.card a:link,
+.card a:visited {
+    color: navy;
 }
 
 .card a:hover {
@@ -129,10 +132,6 @@ main h2 {
 main li {
     list-style: none;
     font-size: 21px;
-}
-
-main li a {
-    text-decoration: none;
 }
 
 
@@ -169,8 +168,19 @@ main li a {
     position: absolute;
     top: 1rem;
     right: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
     cursor: pointer;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+
+.transition-in {
+    opacity: 0;
+    transform: scale(0.5);
+}
+
+.transition-out {
+    opacity: 1;
+    transform: scale(1);
 }
 
 .hero {
@@ -194,7 +204,7 @@ main li a {
     padding: .25rem;
     font-weight: 700;
     font-size: 1.5rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: "Playwrite AU QLD", cursive;
 }
 
 .hero picture {
