@@ -1,0 +1,54 @@
+:root {
+    --border: hsla(0, 0%, 20%, .8);
+    --shadow: hsl(0, 0%, 50%);
+}
+
+body {
+    font-family: "EB Garamond", Arial, serif;
+}
+
+table {
+    margin: 50px auto;
+    border: thin solid var(--border);
+    box-shadow: 0 0 10px var(--shadow);
+    border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: blue;
+    font-size: .85rem;
+}
+
+tr:first-child th {
+    background-color: black;
+    color: white;
+}
+
+th,
+td {
+    padding: 7px 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+th {
+    font-size: larger;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgb(224, 220, 220);
+}
+
+thead .black {
+    background-color: black;
+}
+
+thead .gray {
+    background-color: rgb(83, 82, 82);
+    color: white;
+}
