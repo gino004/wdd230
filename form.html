@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="images/image.webp" alt="Profile" loading="lazy">
+            <span>Gino Estrella</span>
+        </div>
+        <div id="mode" class="transition-out">
+            🌑
+        </div>
+    </header>
+    <button id="menu"></button>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="chamber/index.html">Chamber</a>
+            </li>
+            <li>
+                <a href="week01/chamber-site-plan.html">Site Plan</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="hero">
+        <picture>
+            <source media="(max-width: 400px)" srcset="images/hero-small.webp">
+            <img src="images/hero.webp" alt="hero" width="1330" height="469" loading="lazy">
+        </picture>
+        <div class="herolabel">
+            <p>Cordoba Temple</p>
+        </div>
+    </div>
+    <main>
+        <form method="get" action="record.html" class="wf1">
+            <fieldset>
+                <legend>Username</legend>
+                <label>Your Username* <input type="text" id="username" name="username" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Password</legend>
+                <label>Password* <input type="password" id="password" name="password"  pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$" required title="The password must have numbers and letters, a minimum of 8 characters."></label>
+            </fieldset>
+            <fieldset>
+                <legend>Password repeated for confirmation</legend>
+                <label>Repeat Password* <input type="password" id="password2" name="password2" required><div id="formmessage"></div></label>
+            </fieldset>
+            <fieldset>
+                <legend>Email</legend>
+                <label id="label">Email* 
+                    <input type="email" id="email" name="email"  placeholder="Your byui email address" title="A valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required>
+                    <input id="submit" type="submit" value="Validate">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Page Rating - Choose your range</legend>
+                <div id="rangevalue">0</div>
+                <label for="r">
+                  <input type="range" id="r" name="r"  min="0" max="10" value="0" step="1" list="rangevalues">
+                  <datalist id="rangevalues">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                  </datalist>
+                </label>
+            </fieldset>
+            <input id="enviar" type="submit" value="Submit">
+        </form>
+    </main>
+    <div class="frame">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1379.8444199934083!2d-77.1025513853463!3d-11.989070400816521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105cf05920eee37%3A0xa1f073b687bbc8fc!2sCASA%20FAMILIAR%20C.S.!5e0!3m2!1ses-419!2spe!4v1719545474047!5m2!1ses-419!2spe"
+            loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Gino Estrella | Perú</p>
+        <p>
+            Last Modification: <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/hamburger_menu.js" defer></script>
+    <script src="scripts/darkmode.js" defer></script>
+    <script src="scripts/visits.js" defer></script>
+    <script src="scripts/form.js" defer></script>
+    <script src="scripts/email.js" defer></script>
+    <script src="scripts/range.js" defer></script>
+</body>
+
+</html>
