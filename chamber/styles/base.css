@@ -181,3 +181,105 @@ caption {
     color: rgb(0, 0, 0);
     font-weight: bold;
 }
+
+
+/* Join Page */
+
+.caracter {
+    text-align: center;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin: 5px;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.nivel ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 24.6px;
+}
+
+.wf1 legend {
+    color: blue;
+    padding: 0 .5rem;
+}
+
+.wf1 fieldset {
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+    /* width: 40%; */
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: red;
+    font-size: .9rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="email"],
+.wf1 input[type="tel"],
+select,
+textarea {
+    background-color: #eee;
+    display: block;
+    border: solid 1px #999;
+    border-radius: 6px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+}
+
+.wf1 button[type="submit"] {
+    border: none;
+    background-image: linear-gradient(#62b34a, #0e6f3e);
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+}
+
+.wf1 input:required {
+    border-bottom: solid 8px red;
+}
+
+.wf1 input:required:valid {
+    border-bottom: solid 8px rgba(67, 243, 14, 0.795);
+}
+
+.beneficios {
+    margin: 2.5rem 0;
+}
+
+.beneficios .nivel {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 9px 2%;
+    margin-bottom: 20px;
+}
+
+.cuerpo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+    background-color: #206368;
+    color: white;
+    font-family: "PT Sans Narrow", sans-serif;
+    margin-top: 200px;
+}

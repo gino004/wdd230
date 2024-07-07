@@ -38,3 +38,15 @@
         margin-top: 7px;
     }
 }
+
+@media screen and (max-width: 1250px) {
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .beneficios {
+        margin: 0px 9px;
+    }
+}

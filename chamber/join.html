@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - The Lima Chamber of Commerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=PT+Sans+Narrow:wght@400;700&display=swap" rel="stylesheet">
+    <meta name="author" content="Gino Estrella">
+    <meta name="description" content="This is a form page where the user enters their data for registration with the Lima Chamber of Commerce.">
+    <meta property="og:title" content="Chamber of Commerce of Lima">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.lima2019.pe/sites/default/files/2019-07/iStock-1091870010.jpg">
+    <meta property="og:url" content="https://gino004.github.io/wdd230/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/Wardiere.webp" alt="Logo">
+            <h1>The Lima Chamber of Commerce</h1>
+        </div>
+    </header>
+    <button id="menu"></button>
+    <nav class="navbar">
+        <ul>
+            <li>
+                <a href="discover.html">Discover</a>
+            </li>
+            <li>
+                <a href="">Directory</a>
+            </li>
+            <li>
+                <a href="">Join</a>
+            </li>
+        </ul>
+    </nav>
+    <h1 class="caracter">Welcome to the membership application<br>Benefits by membership level</h1>
+    <main class="form-container">
+        <form method="get" action="thankyou.html" class="wf1">
+            <fieldset>
+                <legend>Enter your Details</legend>
+                <label>First Name* <input type="text" name="fname" id="first" required></label>
+                <label>Last Name* <input type="text" name="lname" id="second" required></label>
+                <label>Title or Position* <input type="text" name="position" id="op" pattern="[A-Za-zÁÉÍÓÚáéíóúÑñ\- ]{7,}" required title="Only alphabetic characters, hyphens and spaces with a minimum of seven characters.."></label>
+                <label>Email* <input type="email" id="correo" name="email" placeholder="someone@gmail.com" required></label>
+                <label>Phone Number * <input type="tel" id="telf" name="number" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business/Organization's name</legend>
+                <label>Name* <input type="text" id="organization" name="business" required></label>
+                <label>Level
+                    <select name="level">
+                        <option value="">Please Select &#9662;</option>
+                        <option value="option 1">NP Membership is for non profit organizations and there is no fee</option>
+                        <option value="option 2">Bronze Membership</option>
+                        <option value="option 3">Silver Membership</option>
+                        <option value="option 4">Gold Membership</option>
+                    </select>
+                </label>
+
+                <label>
+					              	Business/Organization's Description
+                    <textarea name="textarea" id="area"></textarea>
+                </label>
+                <label>
+                    <input type="hidden" id="date" name="date">
+               </label>
+            </fieldset>
+            <button type="submit">
+                Submit
+            </button>
+        </form>
+        <div class="beneficios">
+            <div class="nivel">
+                <h4>NP Membership🐣</h4>
+                <ul>
+                    <li>Free access to networking events and conferences.</li>
+                    <li>Participation in training programs and specialized workshops.</li>
+                    <li>Legal and tax advice for non-profit organizations.</li>
+                    <li>Collaboration and networking opportunities with other similar organizations.</li>
+                    <li>Exclusive newsletter with news and resources relevant to the nonprofit sector.</li>
+                </ul>
+            </div>
+            <div class="nivel">
+                <h4>Bronze Membership🥉</h4>
+                <ul>
+                    <li>Access to exclusive events of the Lima Chamber of Commerce.</li>
+                    <li>Basic advertising on the Chamber's website.</li>
+                    <li>Participation in working groups and specialized committees.</li>
+                    <li>Discounts on rates for consulting and training services.</li>
+                    <li>Access to economic reports and statistics relevant to the sector.</li>
+                </ul>
+            </div>
+            <div class="nivel">
+                <h4>Silver Membership🥈</h4>
+                <ul>
+                    <li>Priority access to training events and seminars.</li>
+                    <li>Featured advertising in the Chamber's electronic newsletter.</li>
+                    <li>Participation in trade missions and international fairs.</li>
+                    <li>Technical assistance on export and internationalization issues.</li>
+                    <li>Access to mediation and commercial conflict resolution services.</li>
+                </ul>
+            </div>
+            <div class="nivel">
+                <h4>Gold Membership🥇</h4>
+                <ul>
+                    <li>Exclusive access to VIP events and meetings with business leaders.</li>
+                    <li>Featured advertising on the home page of the Chamber website.</li>
+                    <li>Personalized advice on strategic and management issues.</li>
+                    <li>Special discounts on Chamber services and affiliated partners.</li>
+                    <li>Access to personalized research reports and market analysis.</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="down">
+        <img class="Foto" src="images/Wardiere.webp" alt="Logo" style="padding: 30px; height: 180px;">
+        <h2 class="titulo">The Lima Chamber of Commerce</h2>
+        <p class="info">info@limachambercommerce.org<br>+51-987456789<br> Lima - Peru 🌎
+        </p>
+        <p class="proyect">
+            <span class="prf">The Lima Chamber of Commerce | Gino Estrella | WDD230 Proyect | Last updated:</span>
+            <span id="lastupdated"></span>
+        </p>
+    </footer>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/hamburger_menu.js" defer></script>
+    <script src="scripts/timestamp.js"></script>
+</body>
+
+</html>
