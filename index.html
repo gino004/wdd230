@@ -61,8 +61,8 @@
         <hr>
         <section class="card">
             <h2>Learning Activities</h2>
-            <ul>
-                <li>
+            <ul id="weeksList">
+                <!-- <li>
                     Week 01: <a href="week01/holygrail.html" target="_blank">CSS Layout</a> |
                     <a href="week01/media-query.html">Media Query.</a>
                 </li>
@@ -86,7 +86,11 @@
                 </li>
                 <li>
                     Week 05:
-                    <a href="https://codepen.io/Garriet/pen/ZEdYjbV?editors=1100" target="_blank">Pseudo-element Example</a>
+                    <a href="https://codepen.io/Garriet/pen/ZEdYjbV?editors=1100" target="_blank">Pseudo-element Example</a> |
+                    <a href="week05/new-ward-members.json" target="_blank">JSON</a> |
+                    <a href="week05/ward.html" target="_blank">JSON example</a> |
+                    <a href="week05/prophets.html" target="_blank">The Fetch API</a> |
+                    <a href="week05/weather.html" target="_blank">Weather API</a>
                 </li>
                 <li>
                     Week 06:
@@ -95,13 +99,16 @@
                 <li>
                     Week 07:
                     <a href=""></a>
-                </li>
+                </li> -->
             </ul>
         </section>
         <section class="card">
             <h2>Information</h2>
-            <p>Lima - Perú</p>
-            <p>⛅17°C Cloudy</p>
+            <p>Lima-Perú: <span id="current-temp"></span></p>
+            <figure>
+                <img id="weather-icon" src="#" alt="#">
+                <figcaption></figcaption>
+            </figure>
             <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
         </section>
     </main>
@@ -119,6 +126,8 @@
     <script src="scripts/hamburger_menu.js" defer></script>
     <script src="scripts/darkmode.js" defer></script>
     <script src="scripts/visits.js" defer></script>
+    <script src="scripts/weather.js"></script>
+    <script src="scripts/link.js"></script>
 </body>
 
 </html>

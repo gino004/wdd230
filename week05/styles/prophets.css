@@ -1,0 +1,44 @@
+/* header,
+main,
+footer {
+    margin: 1rem;
+    position: relative;
+} */
+
+body {
+    background-color: rgb(216, 210, 210);
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    color: rgb(255, 253, 253);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(420px, 3fr));
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 2px rgb(107, 107, 110);
+    margin: 6px;
+    background-color: rgb(153, 175, 189);
+}
+
+img {
+    box-shadow: 10px 10px 10px;
+    margin-bottom: 28px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

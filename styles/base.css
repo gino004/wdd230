@@ -89,8 +89,14 @@ main .card {
     margin: 0px 1px;
 }
 
-main .card ul {
+main .card #weeksList {
     padding: 10px 20px 10px;
+}
+
+main .card #weeksList,
+li a {
+    display: flex;
+    flex-direction: row;
 }
 
 main .card p {
@@ -131,6 +137,23 @@ main h2 {
 main li {
     list-style: none;
     font-size: 21px;
+}
+
+#current-temp {
+    color: #ca0b0b;
+    font-weight: 900;
+}
+
+figure figcaption {
+    color: #9505a8;
+    font-weight: 900;
+}
+
+figure,
+#weather-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 

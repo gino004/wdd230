@@ -1,0 +1,20 @@
+{
+    "NameFamily": "Family Estrella",
+    "Movedtotheneighborhood": "20230711",
+    "NumberPeople": 2,
+    "Visitedbybishopric": "false",
+    "family members": [
+
+        {
+            "name": "Gino Estrella",
+            "gender": "Male",
+            "birthdate": "19881130"
+
+        }, {
+            "name": "Dolibets Angulo Valera",
+            "gender": "Female",
+            "birthdate": "19471216"
+        }
+    ]
+
+}
