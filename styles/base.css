@@ -93,10 +93,43 @@ main .card #weeksList {
     padding: 10px 20px 10px;
 }
 
-main .card #weeksList,
+
+/* main .card #weeksList,
 li a {
     display: flex;
     flex-direction: row;
+} */
+
+#weeksList {
+    list-style-type: none;
+    /* Elimina los estilos de lista predeterminados */
+    padding: 0;
+    display: flex;
+    /* Usa flexbox para los elementos hijos */
+    flex-wrap: wrap;
+    /* Permitir que los elementos se envuelvan a una nueva línea si no caben */
+}
+
+
+/* Estilos para cada semana */
+
+#weeksList li {
+    margin-right: 10px;
+    /* Espacio entre elementos */
+}
+
+
+/* Estilos para cada enlace */
+
+#weeksList li ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+#weeksList li ul li {
+    margin-right: 10px;
+    /* Espacio entre elementos */
 }
 
 main .card p {
