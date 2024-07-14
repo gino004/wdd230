@@ -39,7 +39,7 @@ header .logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #20021b;
+    background-color: #8a1977;
     padding: 15px;
 }
 
@@ -282,4 +282,71 @@ textarea {
     color: white;
     font-family: "PT Sans Narrow", sans-serif;
     margin-top: 200px;
+}
+
+
+/* Directory Page */
+
+.negocios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+#fullInfo,
+#summary {
+    font-family: "PT Sans Narrow", sans-serif;
+}
+
+.negocios section,
+p {
+    margin: auto;
+    text-align: center;
+}
+
+.negocios h3 {
+    text-align: center;
+    color: rgb(7, 110, 151);
+}
+
+.negocios a {
+    color: rgb(13, 38, 177);
+    text-decoration: none;
+}
+
+.menu {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.menu button {
+    height: 30px;
+    width: 100px;
+}
+
+.zebra .empresa:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 768px) {
+    .negocios {
+        grid-template-columns: 1fr;
+    }
+    .menu {
+        display: flex;
+        /* Mostrar los botones en vista móvil */
+        justify-content: center;
+        /* Centrar los botones horizontalmente */
+        margin-bottom: 1rem;
+        /* Espaciado inferior */
+    }
+    .negocios .empresa:nth-child(even) {
+        background-color: #f2f2f2;
+    }
 }
