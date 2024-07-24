@@ -104,6 +104,8 @@ a:hover {
 }
 
 .fundamental {
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 20px;
     display: grid;
     grid-template-areas: "card01 card01 card01 card01 card03 card03" "card04 card04 card05 card05 card06 card06";
     gap: 10px;
