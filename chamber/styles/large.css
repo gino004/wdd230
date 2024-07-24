@@ -1,6 +1,8 @@
 @media screen and (max-width:894px) {
     header,
-    .navbar ul {
+    .navbar ul,
+    #letras,
+    .fundamental {
         display: flex;
         flex-direction: column;
     }
@@ -36,6 +38,22 @@
         gap: 30px;
         border: 2px solid gray;
         margin-top: 7px;
+    }
+    #letras {
+        text-align: center;
+    }
+    #joinButton {
+        position: absolute;
+        /* Cambia la posición a estática para que fluyan con el contenido */
+        top: 400px;
+        left: 300px;
+        /* Agrega un espacio entre los elementos */
+        /* Centra el texto */
+    }
+    #joinButton,
+    #unete {
+        width: auto;
+        /* Haz que el ancho del botón sea automático para adaptarse al contenido */
     }
 }
 

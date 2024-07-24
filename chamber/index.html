@@ -42,11 +42,53 @@
         </ul>
     </nav>
     <div class="hero">
+        <div id="joinButton">
+            <button id="unete"><span class="button-text">Join Us</span></button>
+        </div>
         <picture>
             <source media="(min-width: 715px)" srcset="images/small.webp">
             <source media="(min-width: 959px)" srcset="images/medium.webp">
             <img src="images/large.webp" alt="hero" width="1350" height="600" loading="lazy">
         </picture>
+        <h2 id="letras">Your future is our future</h2>
+    </div>
+    <main class="fundamental">
+        <div class="card01">
+            <div class="events">
+                <h3>Events</h3>
+                <h4>Tax conflict: Figures and Rulings in Peru💎</h4>
+                <p> Wednesday April 17 at 19:00 - Official Chamber of Commerce of Spain in Peru. Participate in the business breakfast that we organize together with Zuzunaga & Asseretto Abogados, where we will analyze the recent tax regulations and evaluate
+                    how to optimize the results of our organizations.
+                    <a href="https://cocep.org.pe/events/la-conflictividad-tributaria-cifras-y-fallos-en-peru/" target="_blank">more info...</a>
+                </p>
+                <hr>
+                <h4>TRENDS FESTIVAL 2024🎈</h4>
+                <p>Discover the future of fashion in the fourth edition of the Trends Festival! Get ready for a unique experience that will transcend the borders of a simple trend forum. This year, we embark on a multi-channel journey that promises to elevate
+                    your collections to new levels of style and success. Aimed at businessmen, designers and entrepreneurs, the Trends Festival will provide you with strategic information and a complete vision of the trends that will dominate the textile
+                    industry.
+                    <a href="https://www.camaralima.org.pe/events/trends-festival-2024-1/" target="_blank">more info...</a></p>
+            </div>
+        </div>
+        <div class="card03">
+            <div class="weather">
+                <h3>Weather</h3>
+                <p>Lima-Peru: <span id="current-temp"></span></p>
+                <figure>
+                    <img id="weather-icon" src="#" alt="#">
+                    <figcaption></figcaption>
+                </figure>
+                <p>Forecast within 3 days: <span id="forecast"></span></p>
+            </div>
+        </div>
+        <div class="card04"></div>
+        <div class="card05"></div>
+        <div class="card06"></div>
+    </main>
+    <div id="banner" style="display: none;">
+        <div class="banner-content">
+            <p>Join us at the Chamber of Commerce meeting at 19:00 hours on Wednesday!</p>
+            <button id="closeBanner">Close</button>
+        </div>
     </div>
     <footer class="down">
         <img class="Foto" src="images/Wardiere.webp" alt="Logo" style="padding: 30px; height: 180px;">
@@ -60,6 +102,12 @@
     </footer>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/hamburger_menu.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/banner.js" defer></script>
+    <script src="scripts/joinus.js" defer></script>
+    <script src="scripts/aleatorio.js" defer></script>
+    <script src="scripts/text.js" defer></script>
+    <script src="scripts/efecto.js" defer></script>
 </body>
 
 </html>

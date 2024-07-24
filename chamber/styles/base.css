@@ -83,6 +83,230 @@ a:hover {
     display: block;
 }
 
+.card01 {
+    grid-area: card01;
+}
+
+.card03 {
+    grid-area: card03;
+}
+
+.card04 {
+    grid-area: card04;
+}
+
+.card05 {
+    grid-area: card05;
+}
+
+.card06 {
+    grid-area: card06;
+}
+
+.fundamental {
+    display: grid;
+    grid-template-areas: "card01 card01 card01 card01 card03 card03" "card04 card04 card05 card05 card06 card06";
+    gap: 10px;
+}
+
+.fundamental {
+    /* margin-bottom: 10px; */
+    width: 100%;
+    /* margin-top: 10px; */
+    margin: 0 auto;
+}
+
+.card01,
+.card03,
+.card04,
+.card05,
+.card06 {
+    /* flex-direction: row; */
+    /* border: 1px solid #000; */
+    box-shadow: 1px 1px 29px 5px #000;
+}
+
+.card01,
+.card03,
+.card04,
+.card05,
+.card06 {
+    background-color: rgb(218, 218, 218);
+    padding: 10px;
+    /* width: 1080px; */
+}
+
+.card04 h3,
+.card05 h3,
+.card06 h3 {
+    color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+.card04,
+.card05,
+.card06 {
+    padding: 30px;
+}
+
+.card04 p:nth-child(4) {
+    color: rgb(2, 99, 70);
+    font-weight: bold;
+}
+
+.card05 p:nth-child(4) {
+    color: rgb(2, 99, 70);
+    font-weight: bold;
+}
+
+.card06 p:nth-child(4) {
+    color: rgb(2, 99, 70);
+    font-weight: bold;
+}
+
+.weather figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weather figcaption {
+    text-align: center;
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(255, 0, 106);
+}
+
+.weather #weather-icon {
+    width: 95px;
+    /* height: 100px; */
+}
+
+.events h3,
+.weather h3 {
+    color: #000;
+    border-bottom: 1px solid #6d4e4e;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.weather p {
+    color: #000;
+    text-align: center;
+}
+
+.events p,
+h4 {
+    color: #000;
+    text-align: left;
+}
+
+.weather a,
+.events a {
+    text-decoration: none;
+    color: #d413c4;
+}
+
+#current-temp {
+    color: blue;
+    font-weight: 900;
+}
+
+#forecast {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#banner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+    background-color: #9f9ecf;
+    padding: 20px;
+    border: 3px solid #9f80a0;
+    border-radius: 9px;
+    z-index: 9999;
+}
+
+.banner-content,
+#closeBanner {
+    font-family: Bebas Neue;
+    font-size: 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+}
+
+.banner-content p {
+    color: rgb(8, 8, 8);
+}
+
+#banner {
+    transition: opacity 0.5s ease;
+    /* Transición de opacidad con duración de 0.5 segundos */
+    opacity: 0;
+    /* Inicialmente establecemos la opacidad en 0 para que el banner esté oculto */
+}
+
+#banner.show {
+    opacity: 1;
+    /* Cambiamos la opacidad a 1 para mostrar el banner cuando tiene la clase 'show' */
+}
+
+.banner-content #closeBanner {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+#closeBanner {
+    margin-top: 10px;
+}
+
+#joinButton {
+    position: absolute;
+    top: 318px;
+    left: 90px;
+    transform: translate(-10%, -4%);
+    z-index: 1;
+}
+
+#joinButton #unete {
+    width: 250px;
+    height: 50px;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 30px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    background-image: linear-gradient(rgb(86, 216, 188), rgb(34, 78, 114));
+    box-shadow: 1px 1px 10px;
+}
+
+.button-text {
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+}
+
+#letras {
+    position: absolute;
+    top: 300px;
+    height: 60px;
+    right: 80px;
+    z-index: 1;
+    color: white;
+    opacity: 0;
+    transition: opacity 3s ease;
+    font-size: 70px;
+}
+
+#letras.show {
+    opacity: 1;
+}
+
 .down {
     display: flex;
     flex-direction: column;
